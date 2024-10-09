@@ -17,10 +17,12 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS.md](https://github.com
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
+De basis HTML staat er nu, met een beetje CSS die past bij de huisstijl van Redpers. Er zijn nog geen werkende functies.
+<img src=screenshot.png>
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-
+De HTML bevat een header, een div bij de header en articles hebben lists voor de tekst van de artikelen van auteurs.
+De CSS bevat mediaqueries voor een responsive site en kleuren van de huisstijl. De fonts Sans Serif 4 en Merriweather zijn toegepast.
 
 
 ## Licentie
