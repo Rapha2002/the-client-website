@@ -1,36 +1,139 @@
-<!-- HTML -->
 <!DOCTYPE html>
-  <html>
-    <head>
-<title>Redpers
-</title>
-</head>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redpers</title>
+    <style>
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+        }
 
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1, h2, h3 {
+            margin: 15px 0;
+            color: #000000;
+        }
+
+        h1 {
+            text-align: center;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 10px;
+        }
+
+        article {
+            border: 1px solid #000000;
+            margin: 20px;
+            padding: 15px;
+            background-color: #f4f4f4;
+        }
+
+        article h2 {
+            font-size: 1.5em;
+        }
+
+        article img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+            border: 1px solid #000;
+        }
+
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+            border-bottom: 1px solid #000000;
+            padding-bottom: 5px;
+        }
+
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            header {
+                font-size: 1.2em;
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+                padding-bottom: 5px;
+            }
+
+            h2 {
+                font-size: 1.3em;
+            }
+
+            h3 {
+                font-size: 1.1em;
+            }
+
+            article {
+                padding: 10px;
+                margin: 10px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.2em;
+            }
+
+            article {
+                padding: 5px;
+                margin: 5px 0;
+            }
+
+            article h2 {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
 <body>
-    <header>VOORPAGINA  BINNENLAND</header>
-   
-   <div class=hai> </div> 
+    <header>
+        <h1>VOORPAGINA BINNENLAND</h1>
+    </header>
+
+    <div class="hai"></div>
 
     <h1>REDPERS</h1>
-<article>
-    <h2>Hier titel van artikel</h2>
-    <h3>Hier korte beschrijving artikel</h3>
-    <h4>Hier auteur</h4>
-    <h4>Hier beeld/fotograaf</h4>
-    <img> 
-</article>
 
-<article>
-    <p>hier kopje</p>
-    <h3>Hier titel van kopje</h3>
-    <p>hier kopje</p>
-    <h3>Hier titel van kopje</h3>
-    <p>hier kopje</p>
-    <h3>Hier titel van kopje</h3>
-    <p>hier kopje</p>
-    <h3>Hier titel van kopje</h3>
-</article>
+    <article>
+        <h2>Hier titel van artikel</h2>
+        <h3>Hier korte beschrijving artikel</h3>
+        <h3>Hier auteur</h3>
+        <h3>Hier beeld/fotograaf</h3>
+        <img src="#" alt="Artikel afbeelding">
+    </article>
+
+    <article>
+        <ul>
+            <li><h3>Hier titel van kopje</h3></li>
+            <li><h3>Hier titel van kopje</h3></li>
+            <li><h3>Hier titel van kopje</h3></li>
+            <li><h3>Hier titel van kopje</h3></li>
+        </ul>
+    </article>
 
 </body>
-
 </html>
