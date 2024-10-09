@@ -1,1 +1,106 @@
-/* CSS */
+
+        
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Source Serif 4, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+ 
+    margin: 15px 0;
+    color: #000000;
+}
+
+h1 {
+    font-family: "Merriweather";
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+}
+
+article {
+    border: 1px solid #000000;
+    margin: 20px;
+    padding: 15px;
+    background-color: #f4f4f4;
+}
+
+article h2 {
+    font-family: "Merriweather";
+    font-size: 1.5em;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border: 1px solid #000;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 5px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        font-size: 1.2em;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        padding-bottom: 5px;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+
+    article {
+        padding: 10px;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    article {
+        padding: 5px;
+        margin: 5px 0;
+    }
+
+    article h2 {
+        font-size: 1.1em;
+    }
+}
