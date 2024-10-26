@@ -21,8 +21,8 @@ De basis HTML staat er nu, met een beetje CSS die past bij de huisstijl van Redp
 <img src=screenshot.png>
 
 ## Kenmerken
-De HTML bevat een header, een div bij de header en articles hebben lists voor de tekst van de artikelen van auteurs.
-De CSS bevat mediaqueries voor een responsive site en kleuren van de huisstijl. De fonts Sans Serif 4 en Merriweather zijn toegepast.
+In HTML is de header aangepast met meer informatie en links, en is er meer tekst in het artikel met een image van het artikel.
+De CSS bevat grid voor een responsive site en kleuren van de huisstijl. De fonts Sans Serif 4 en Merriweather zijn toegepast.
 
 
 ## Licentie
